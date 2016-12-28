@@ -1,0 +1,6 @@
+C:\Users\witanski\Downloads\ProgramTetiusa-master\ProgramTetiusa\bin\Debug\ProgramTetiusa.exe.config
+C:\Users\witanski\Downloads\ProgramTetiusa-master\ProgramTetiusa\bin\Debug\ProgramTetiusa.exe
+C:\Users\witanski\Downloads\ProgramTetiusa-master\ProgramTetiusa\bin\Debug\ProgramTetiusa.pdb
+C:\Users\witanski\Downloads\ProgramTetiusa-master\ProgramTetiusa\obj\Debug\ProgramTetiusa.csprojResolveAssemblyReference.cache
+C:\Users\witanski\Downloads\ProgramTetiusa-master\ProgramTetiusa\obj\Debug\ProgramTetiusa.exe
+C:\Users\witanski\Downloads\ProgramTetiusa-master\ProgramTetiusa\obj\Debug\ProgramTetiusa.pdb
