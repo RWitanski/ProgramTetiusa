@@ -138,7 +138,7 @@ namespace ProgramTetiusa
                         Console.Write("{0} ", array[i, j]);
                 }
 
-                Console.Write(Environment.NewLine + Environment.NewLine);
+                Console.WriteLine(Environment.NewLine);
             }
 
             Console.WriteLine();
@@ -163,7 +163,7 @@ namespace ProgramTetiusa
             if (rowLenght.Equals(colLenght))
             {
                 int repeats = 1;
-                int nextMove = 4;
+                int nextMove = 2;
 
                 while (iterator <= totalElements - 1)
                 {
