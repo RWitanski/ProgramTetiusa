@@ -21,7 +21,7 @@ namespace ProgramTetiusa
         /// <summary>
         ///     The array.
         /// </summary>
-        private static readonly int[,] array = { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 16 } };
+        private static readonly int[,] array = { { 1, 2, 3, 4, 5 }, {6, 7, 8, 9 , 10 }, { 11, 12, 13, 14, 15 }, { 16, 17, 18, 19, 20} , { 21, 22, 23, 24, 25 } };
 
         /// <summary>
         /// The col lenght.
@@ -44,14 +44,14 @@ namespace ProgramTetiusa
         private static int iterator = 1;
 
         /// <summary>
-        ///     The x.
+        ///     The x Start point.
         /// </summary>
         private static int x = 2;
 
         /// <summary>
-        ///     The y.
+        ///     The y Start point.
         /// </summary>
-        private static int y = 1;
+        private static int y = 2; //1
 
         #endregion
 
@@ -132,7 +132,10 @@ namespace ProgramTetiusa
             {
                 for (int j = 0; j < colLenght; j++)
                 {
-                    Console.Write("{0} ", array[i, j]);
+                    if (array[i, j] < 10)
+                        Console.Write("{0}  ", array[i, j]);
+                    else
+                        Console.Write("{0} ", array[i, j]);
                 }
 
                 Console.Write(Environment.NewLine + Environment.NewLine);
@@ -162,7 +165,7 @@ namespace ProgramTetiusa
                 int repeats = 1;
                 int nextMove = 4;
 
-                while (iterator <= 15)
+                while (iterator <= totalElements - 1)
                 {
                     WriteMoveValue(array, x, y, iterator);
                     switch (nextMove)
